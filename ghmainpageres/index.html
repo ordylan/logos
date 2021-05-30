@@ -7,6 +7,6 @@ var re = new RegExp("" +val+ "=([^&?]*)", "ig");
 return ((uri.match(re))?(uri.match(re)[0].substr(val.length+1)):null);}}
 var canshu = request.QueryString("skin_id");
 
-window.navigate("https://ordylan.github.io/index.html?skin_id="+canshu);
-
+window.navigate();
+window.location.href="https://ordylan.github.io/index.html?skin_id="+canshu;
 </script>
