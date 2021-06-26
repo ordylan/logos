@@ -1,5 +1,5 @@
 //ver版本号
-document.getElementById("ver").innerHTML="V.5.4.3.03";
+document.getElementById("ver").innerHTML="V.5.5.0.22";
 //fullver1升级公告
 var hhh = document.getElementById('fullver1');
 	hhh.innerHTML ='Ver.5.5.0.22(TIME:1624712907412)<br>1.恢复了服务器的选择.<br>2.代码加上了注释.<br>3.优化了返回代码以及换皮肤出现的小bug.<br>4.优化了部分复杂的文案,读起来更轻松.<br>5.修改了版本号遮挡按钮的神奇事情.<br>6.优化了地址参数的逻辑.<br>------------------<br>\
